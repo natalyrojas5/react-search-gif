@@ -6,7 +6,7 @@ const GifExpertApp = ()=>{
     const [categories, setCategories] = useState(['Cats'])
         /*
     const handleAdd = ()=>{
-        // Extrayendo las categorias con el operador de propagación [...categorias]
+       -- Extrayendo las categorias con el operador de propagación [...categorias]
 
         setCategories([...categories, 'Hola Mundo']);
         setCategories(categ => [...categ, 'Hola Mundo']);
